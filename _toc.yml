@@ -1,0 +1,23 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: welcome
+parts:
+- caption: Introduction
+  chapters:
+  - file: introduction
+- caption: Kellogg Linux Cluster
+  numbered: true
+  chapters:
+  - file: klc-accessing
+  - file: klc-software
+  - file: klc-storage
+  - file: klc-system-description
+  - file: klc-data-transfers
+- caption: Datasets
+  numbered: true
+  chapters:
+  - file: klc-datasets
+  - file: aws-datasets
+
